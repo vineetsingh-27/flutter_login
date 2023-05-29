@@ -27,6 +27,7 @@ class DrawerWidget extends StatelessWidget {
                   color: Colors.red,
                 ),
                 currentAccountPicture: CircleAvatar(
+                  radius: 25,
                   child: Image.asset("assets/images/profile.jpeg"),
                 ),
                 accountName: const Text("Vineet Singh"),
@@ -92,7 +93,7 @@ class DrawerWidget extends StatelessWidget {
             title: const Text("Sign out"),
             onTap: () {
               Navigator.pushNamedAndRemoveUntil(
-                  context, 'phone', (route) => false);
+                  context, 'register', (route) => false);
             },
             leading: const Icon(Icons.exit_to_app),
           )

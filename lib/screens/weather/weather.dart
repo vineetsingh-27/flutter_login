@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login/consts/images.dart';
-import 'package:flutter_login/controllers/main_controller.dart';
-import 'package:flutter_login/screens/home/home.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:velocity_x/velocity_x.dart';
+
+import 'package:flutter_login/consts/images.dart';
+import 'package:flutter_login/controllers/main_controller.dart';
+import 'package:flutter_login/screens/home/home.dart';
 
 import '../../consts/strings.dart';
 import '../../models/current_weather_model.dart';
