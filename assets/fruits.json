@@ -1,0 +1,157 @@
+{
+    "fruits": [
+        {
+            "title": "Apple",
+            "month_of_cultivation": "August to October",
+            "required_temperature": "10 to 15 degree Celsius",
+            "description": "Apples are a popular fruit that are high in Vitamin C and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Apple trees are typically propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://www.transparentpng.com/thumb/apple-fruit/iVyuBZ-apple-fruit-clipart-hd.png"
+        },
+        {
+            "title": "Banana",
+            "month_of_cultivation": "April to June",
+            "required_temperature": "20 to 30 degree Celsius",
+            "description": "Bananas are a tropical fruit that are high in potassium and can be eaten fresh or used in smoothies and baking.",
+            "soil": "well-drained, rich soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Banana plants are propagated by dividing the rhizomes or by using suckers. They are planted in a sunny location with well-drained soil and require consistent moisture and fertilization to produce fruit.",
+            "image_url":"https://www.transparentpng.com/thumb/banana/9Egxrl-bananas-free-download.png"
+        },
+        {
+            "title": "Cherry",
+            "month_of_cultivation": "March to April",
+            "required_temperature": "10 to 15 degree Celsius",
+            "description": "Cherries are a sweet, juicy fruit that can be eaten fresh or used in cooking and baking. They are high in antioxidants.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Cherry trees are propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://www.transparentpng.com/thumb/fruit/beautiful-cherry-fruit-hd-png-b1Y29S.png"
+        },
+        {
+            "title": "Orange",
+            "month_of_cultivation": "January to March",
+            "required_temperature": "18 to 25 degree Celsius",
+            "description": "Oranges are a citrus fruit that are high in Vitamin C and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Orange trees are typically propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://cdn.pixabay.com/photo/2016/02/23/17/40/fruit-1218154__340.png"
+        },
+        {
+            "title": "Pineapple",
+            "month_of_cultivation": "March to April",
+            "required_temperature": "20 to 30 degree Celsius",
+            "description": "Pineapples are a tropical fruit that are high in Vitamin C and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Pineapple plants are propagated by using suckers or slips. They are planted in a sunny location with well-drained soil and require consistent moisture and fertilization to produce fruit.",
+            "image_url":"https://www.transparentpng.com/thumb/pineapple/ZTB6o3-pineapple-png-pineapple-png-image-free-download.png"
+        },
+        {
+            "title": "Watermelon",
+            "month_of_cultivation": "May to June",
+            "required_temperature": "25 to 30 degree Celsius",
+            "description": "Watermelons are a juicy fruit that are high in Vitamin A and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Watermelon plants are propagated by using seed. They are planted in a sunny location with well-drained soil and require consistent moisture and fertilization to produce fruit.",
+            "image_url":"https://www.transparentpng.com/thumb/watermelon/KJwhiS-watermelon-high-quality.png"
+        },
+        {
+            "title": "Strawberry",
+            "month_of_cultivation": "April to May",
+            "required_temperature": "10 to 15 degree Celsius",
+            "description": "Strawberries are a sweet fruit that are high in Vitamin C and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Strawberry plants are propagated by using runners. They are planted in a sunny location with well-drained soil and require consistent moisture and fertilization to produce fruit.",
+            "image_url":"https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c1a3.png"
+        },
+        {
+            "title": "Lemon",
+            "month_of_cultivation": "January to February",
+            "required_temperature": "10 to 15 degree Celsius",
+            "description": "Lemons are a citrus fruit that are high in Vitamin C and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Lemon trees are typically propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c159.png"
+        },
+        {
+            "title": "Peach",
+            "month_of_cultivation": "May to June",
+            "required_temperature": "20 to 25 degree Celsius",
+            "description": "Peaches are a sweet fruit that are high in Vitamin A and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Peach trees are typically propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c1a3.png"
+        },
+        {
+            "title": "Blueberry",
+            "month_of_cultivation": "May to June",
+            "required_temperature": "10 to 15 degree Celsius",
+            "description": "Blueberries are a sweet fruit that are high in antioxidants and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained, acidic soil with a pH of 4.0 to 5.0",
+            "cultivation_process": "Blueberry bushes are typically propagated by using cuttings or by layering. They are planted in a sunny location with well-drained, acidic soil and require consistent moisture and fertilization to produce fruit.",
+            "image_url":"https://assets.stickpng.com/thumbs/594579375eb5d45f10e35b46.png"
+        },
+        {
+            "title": "Raspberry",
+            "month_of_cultivation": "June to July",
+            "required_temperature": "10 to 15 degree Celsius",
+            "description": "Raspberries are a sweet fruit that are high in Vitamin C and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Raspberry bushes are typically propagated by using cuttings or by layering. They are planted in a sunny location with well-drained soil and require consistent moisture and fertilization to produce fruit.",
+            "image_url":"https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c19f.png"
+        },
+        {
+            "title": "Pomegranate",
+            "month_of_cultivation": "August to September",
+            "required_temperature": "20 to 30 degree Celsius",
+            "description": "Pomegranates are a fruit that are high in antioxidants and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Pomegranate trees are typically propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c190.png"
+        },
+        {
+            "title": "Mango",
+            "month_of_cultivation": "March to April",
+            "required_temperature": "20 to 30 degree Celsius",
+            "description": "Mangoes are a tropical fruit that are high in Vitamin A and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained, rich soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Mango trees are typically propagated by using grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and require consistent moisture and fertilization to produce fruit.",
+            "image_url":"https://www.transparentpng.com/thumb/mango/dDNJDa-mango-transparent-picture.png"
+        },
+        {
+            "title": "Plum",
+            "month_of_cultivation": "August to September",
+            "required_temperature": "20 to 25 degree Celsius",
+            "description": "Plums are a sweet fruit that are high in Vitamin A and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Plum trees are typically propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c18f.png"
+        },
+        {
+            "title": "Grapefruit",
+            "month_of_cultivation": "January to March",
+            "required_temperature": "20 to 25 degree Celsius",
+            "description": "Grapefruits are a citrus fruit that are high in Vitamin C and can be eaten fresh or used in cooking and baking.",
+            "soil": "well-drained soil with a pH of 6.0 to 7.0",
+            "cultivation_process": "Grapefruit trees are typically propagated by grafting a desired variety onto a rootstock. The tree is then planted in a sunny location with well-drained soil and is trained and pruned to encourage fruiting.",
+            "image_url":"https://www.transparentpng.com/thumb/fruit/right-looking-grapefruit-sour-fruit-clipart-png--4C29BB.png"
+        },
+        {
+            "title": "Tomatoes",
+            "month_of_cultivation": "June to September",
+            "required_temperature": "70-85 F",
+            "description": "Tomatoes are a warm-season vegetable that are commonly grown in gardens and on farms. They are a versatile ingredient that can be used in a variety of dishes, including salads, sandwiches, and sauces.",
+            "soil": "well-draining, rich in organic matter",
+            "cultivation_process": "Tomatoes should be planted in a sunny location after all danger of frost has passed. They should be spaced 18-24 inches apart and staked or caged for support. Tomatoes require regular watering and fertilization throughout the growing season.",
+            "image_url": "https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c238.png"
+        },
+        {
+            "title": "Carrots",
+            "month_of_cultivation": "April to June",
+            "required_temperature": "45-75 F",
+            "description": "Carrots are a cool-season vegetable that are known for their sweet, crisp flavor. They are a popular ingredient in salads, soups, and roasted dishes.",
+            "soil": "well-drained, sandy loam",
+            "cultivation_process": "Carrots should be planted in a sunny location as soon as the soil can be worked in the spring. They should be spaced 2-3 inches apart and thinned to 3-4 inches apart when they are about 1 inch tall. Carrots require regular watering and fertilization throughout the growing season.",
+            "image_url": "https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c20a.png"
+        }
+    ]
+}

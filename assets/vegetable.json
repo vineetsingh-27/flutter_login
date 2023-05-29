@@ -1,0 +1,109 @@
+{
+  "vegetables": [
+    {
+      "title": "Cauliflower",
+      "month_of_cultivation": "June to September",
+      "required_temperature": "60-65 F",
+      "description": "Cauliflower is a cool-season vegetable that is known for its delicate, nutty flavor. It is a popular ingredient in salads, soups, and roasted dishes.",
+      "soil": "well-drained, fertile soil",
+      "cultivation_process": "Cauliflower should be planted in a sunny location after all danger of frost has passed. They should be spaced 18-24 inches apart and provided with consistent moisture throughout the growing season. Cauliflower requires regular fertilization and should be protected from pests.",
+      "image_url": "https://www.transparentpng.com/thumb/vegetable/CBRfoF-vegetable-cauliflower-clipart-hd.png"
+    },
+
+    {
+      "title": "Peppers",
+      "month_of_cultivation": "May to September",
+      "required_temperature": "70-85 F",
+      "description": "Peppers are a warm-season vegetable that come in a variety of colors and flavors, from sweet to spicy. They are a popular ingredient in salads, sandwiches, and sauces.",
+      "soil": "well-draining, rich in organic matter",
+      "cultivation_process": "Peppers should be started indoors and transplanted outside after all danger of frost has passed. They should be spaced 18-24 inches apart and provided with consistent moisture throughout the growing season. Peppers require regular fertilization and should be protected from pests.",
+      "image_url": "https://www.transparentpng.com/thumb/pepper/e8gDkB-pepper-free-download.png"
+    },
+
+    {
+      "title": "Cucumbers",
+      "month_of_cultivation": "May to August",
+      "required_temperature": "70-85 F",
+      "description": "Cucumbers are a warm-season vegetable that are known for their refreshing, crisp flavor. They are a popular ingredient in salads, sandwiches, and pickles.",
+      "soil": "well-draining, rich in organic matter",
+      "cultivation_process": "Cucumbers should be planted in a sunny location after all danger of frost has passed. They should be spaced 18-24 inches apart and provided with consistent moisture throughout the growing season. Cucumbers require regular fertilization and should be protected from pests.",
+      "image_url": "https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c216.png"
+    },
+
+    {
+      "title": "Eggplants",
+      "month_of_cultivation": "June to September",
+      "required_temperature": "70-85 F",
+      "description": "Eggplants are a warm-season vegetable that are known for their meaty texture and slightly bitter flavor. They are a popular ingredient in stews, curries, and roasted dishes.",
+      "soil": "well-draining, rich in organic matter",
+      "cultivation_process": "Eggplants should be started indoors and transplanted outside after all danger of frost has passed. They should be spaced 18-24 inches apart and provided with consistent moisture throughout the growing season. Eggplants require regular fertilization and should be protected from pests.",
+      "image_url": "https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c21a.png"
+    },
+
+    {
+      "title": "Cabbage",
+      "month_of_cultivation": "September to December",
+      "required_temperature": "10-25°C",
+      "description": "Cabbage is a leafy vegetable that comes in different colors like green, red, and purple. It is a good source of Vitamin C and fiber.",
+      "soil": "Well-drained loamy soil",
+      "cultivation_process": "1. Sow seeds indoors or sow directly in the ground\n2. Transplant seedlings to desired spacing\n3. Water regularly and keep the soil moist\n4. Fertilize with balanced NPK fertilizer\n5. Watch out for pests and diseases\n6. Harvest when heads are firm",
+      "image_url": "https://www.transparentpng.com/thumb/vegetable/fZslFj-vegetable-cabbage-transparent.png"
+    },
+
+    {
+      "title": "Broccoli",
+      "month_of_cultivation": "October to February",
+      "required_temperature": "15-25°C",
+      "description": "Broccoli is a green vegetable known for its dense clusters of edible flower buds. It is a good source of Vitamin C, Vitamin K, and fiber.",
+      "soil": "Well-drained loamy soil",
+      "cultivation_process": "1. Start seeds indoors or sow directly in the ground\n2. Transplant seedlings to desired spacing\n3. Water regularly and keep the soil moist\n4. Fertilize with balanced NPK fertilizer\n5. Watch out for pests and diseases\n6. Harvest when buds are tight and green",
+      "image_url": "https://w7.pngwing.com/pngs/233/175/png-transparent-broccoli-vegetables-illustration-broccoli-brussels-sprout-capitata-group-vegetable-cauliflower-broccoli-leaf-vegetable-food-cooking-thumbnail.png"
+    },
+
+    {
+      "title": "Spinach",
+      "month_of_cultivation": "September - November, February - March",
+      "required_temperature": "5-24°C",
+      "description": "Spinach is a leafy green vegetable that is rich in iron, vitamins, and minerals. It has a slightly bitter taste and is often used in salads, soups, and cooked dishes.",
+      "soil": "Well-drained fertile soil",
+      "cultivation_process": "1. Sow spinach seeds directly in the ground or in containers, spacing them about 2 inches apart. 2. Water regularly, keeping the soil evenly moist. 3. Thin the seedlings to about 4-6 inches apart when they are 1-2 inches tall. 4. Protect the plants from pests and diseases. 5. Harvest the spinach leaves when they are young and tender, usually after about 40-60 days.",
+      "image_url": "https://w7.pngwing.com/pngs/464/445/png-transparent-vegetarian-cuisine-spanakopita-omelette-spinach-arugula-vegetable-leaf-vegetable-food-leaf-thumbnail.png"
+    },
+    {
+      "title": "Bitter Gourd",
+      "month_of_cultivation": "April - June",
+      "required_temperature": "25-35°C",
+      "description": "Bitter Gourd, also known as Bitter Melon or Karela, is a tropical and subtropical vine. It has a unique bitter taste and is commonly used in Asian cuisine for its medicinal properties.",
+      "soil": "Well-drained, loamy soil",
+      "cultivation_process": "1. Sow seeds in pots or directly in the ground after the last frost.\n2. Provide support for the vine to climb.\n3. Water regularly, keeping the soil evenly moist.\n4. Apply organic fertilizer during the growing season.\n5. Control pests and diseases through natural or chemical methods.\n6. Harvest when fruits are green and tender.",
+      "image_url": "https://w7.pngwing.com/pngs/310/532/png-transparent-bitter-melon-gourd-bitterness-cucurbitaceae-vegetable-vegetable-leaf-vegetable-food-gourd-thumbnail.png"
+    },
+    {
+      "title": "French Beans",
+      "month_of_cultivation": "March - June, September - November",
+      "required_temperature": "18-24°C",
+      "description": "French Beans, also known as Green Beans or String Beans, are legumes that are grown for their edible pods. They are a rich source of vitamins and minerals and are commonly used in various cuisines.",
+      "soil": "Well-drained, sandy loam soil",
+      "cultivation_process": "1. Sow seeds directly in the ground after the last frost or start indoors and transplant.\n2. Provide support for the plants to climb.\n3. Water regularly, keeping the soil evenly moist.\n4. Apply balanced fertilizer during the growing season.\n5. Control pests and diseases through natural or chemical methods.\n6. Harvest when the pods are young and tender.",
+      "image_url": "https://w7.pngwing.com/pngs/246/1014/png-transparent-green-bean-french-cuisine-vegetable-organic-food-black-beans-food-supermarket-grocery-store-thumbnail.png"
+    },
+    {
+      "title": "Green Peas",
+      "month_of_cultivation": "September - November, January - March",
+      "required_temperature": "10-20°C",
+      "description": "Green Peas, also known as Garden Peas, are small spherical seeds that are eaten as a vegetable. They are a good source of protein, fiber, and various vitamins and minerals.",
+      "soil": "Well-drained, loamy soil",
+      "cultivation_process": "1. Sow seeds directly in the ground after the last frost or start indoors and transplant.\n2. Provide support for the plants to climb.\n3. Water regularly, keeping the soil evenly moist.\n4. Apply balanced fertilizer during the growing season.\n5. Control pests and diseases through natural or chemical methods.\n6. Harvest when the pods are plump and bright green.",
+      "image_url": "https://w7.pngwing.com/pngs/926/977/png-transparent-green-beans-chickpea-vegetable-legume-fruit-peas-vegetable-hq-s-natural-foods-food-nutrition-thumbnail.png"
+    },
+    {
+      "title": "Pumpkin",
+      "month_of_cultivation": "April - June",
+      "required_temperature": "18-30°C",
+      "description": "Pumpkin is a large, round, or oblong squash that is known for its sweet flavor and bright orange color. It is commonly used in cooking and is a popular ingredient in pies, soups, and other dishes.",
+      "soil": "Well-drained, fertile soil",
+      "cultivation_process": "1. Sow seeds directly in the ground after the last frost or start indoors and transplant.",
+      "image_url": "https://w7.pngwing.com/pngs/329/100/png-transparent-pumpkin-calabaza-gourd-bell-pepper-summer-squash-pumpkin-food-melon-scary-pumpkin-thumbnail.png"
+    }
+  ]
+}

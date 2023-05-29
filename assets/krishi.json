@@ -1,0 +1,25 @@
+{
+  "schemes": [
+    {
+      "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "scheme_description": "Under this scheme, small and marginal farmers receive direct income support of ₹6,000 per year. The amount is transferred directly to their bank accounts in three equal installments.",
+      "required_document": "Aadhaar card, bank account details, and land ownership documents.",
+      "eligibility": "All small and marginal farmers who own cultivable land are eligible.",
+      "scheme_url": "https://pmkisan.gov.in/"
+    },
+    {
+      "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "scheme_description": "This scheme provides insurance coverage and financial support to farmers in case of crop damage due to natural calamities, pests, or diseases. It aims to stabilize farmers' income and ensure their financial stability.",
+      "required_document": "Aadhaar card, bank account details, land records, and crop details.",
+      "eligibility": "All farmers who cultivate notified crops are eligible to enroll.",
+      "scheme_url": "https://pmfby.gov.in/"
+    },
+    {
+      "scheme_name": "Kisan Credit Card (KCC) Scheme",
+      "scheme_description": "The Kisan Credit Card scheme provides farmers with affordable credit to meet their agricultural and allied expenses. It aims to enable farmers to have timely access to credit and to meet their short-term credit requirements.",
+      "required_document": "Aadhaar card, land ownership documents, and income certificate.",
+      "eligibility": "All farmers, including individuals, joint cultivators, tenant farmers, sharecroppers, etc., are eligible.",
+      "scheme_url": "https://nabard.org/english/kisancreditcard.aspx"
+    }
+  ]
+}
