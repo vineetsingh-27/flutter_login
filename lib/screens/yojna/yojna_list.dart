@@ -41,6 +41,7 @@ class _MyYojnaListState extends State<MyYojnaList> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Krishi Yojna"),
+        backgroundColor: Colors.green,
       ),
       body: ListView.builder(
         itemCount: schemes.length,
