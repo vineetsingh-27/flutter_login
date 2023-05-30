@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login/widget/plantation_method.dart';
 
 class CategoriesWidget extends StatelessWidget {
   const CategoriesWidget({
@@ -69,27 +70,36 @@ class CategoriesWidget extends StatelessWidget {
             height: 10,
             width: 10,
           ),
-          Container(
-            margin: const EdgeInsets.only(left: 8.0),
-            width: 120,
-            height: 120,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(4),
-              border: Border.all(
-                width: 0.5,
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const PlantationMethod(),
+                  ));
+            },
+            child: Container(
+              margin: const EdgeInsets.only(left: 8.0),
+              width: 120,
+              height: 120,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(4),
+                border: Border.all(
+                  width: 0.5,
+                ),
+                image: const DecorationImage(
+                  image: ExactAssetImage("assets/images/method2.png"),
+                  alignment: Alignment.topCenter,
+                ),
               ),
-              image: const DecorationImage(
-                image: ExactAssetImage("assets/images/method2.png"),
-                alignment: Alignment.topCenter,
-              ),
-            ),
-            child: const Align(
-              alignment: Alignment.bottomCenter,
-              child: Text(
-                "Method",
-                style: TextStyle(
-                  fontSize: 22,
+              child: const Align(
+                alignment: Alignment.bottomCenter,
+                child: Text(
+                  "Method",
+                  style: TextStyle(
+                    fontSize: 22,
+                  ),
                 ),
               ),
             ),
@@ -132,5 +142,3 @@ class CategoriesWidget extends StatelessWidget {
     );
   }
 }
-
-

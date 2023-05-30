@@ -30,8 +30,9 @@ class _MyYojnaListState extends State<MyYojnaList> {
     },
     {
       'title': 'Soil Health Card',
-      'url' : 'https://soilhealth.dac.gov.in/home',
-      'image' : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkxC-jgHaE1Q42xFfB62nYNvD1NyEkTS2HvA&usqp=CAU'
+      'url': 'https://soilhealth.dac.gov.in/home',
+      'image':
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkxC-jgHaE1Q42xFfB62nYNvD1NyEkTS2HvA&usqp=CAU'
     },
     // Add more schemes as needed
   ];
@@ -48,7 +49,8 @@ class _MyYojnaListState extends State<MyYojnaList> {
         itemBuilder: (context, index) {
           return SizedBox(
             height: 100,
-            child: Card(margin: const EdgeInsets.all(10),
+            child: Card(
+              margin: const EdgeInsets.all(10),
               semanticContainer: true,
               clipBehavior: Clip.antiAliasWithSaveLayer,
               shadowColor: Colors.black87,
@@ -64,7 +66,8 @@ class _MyYojnaListState extends State<MyYojnaList> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => SchemeWebView(schemes[index]['url']!),
+                      builder: (context) =>
+                          SchemeWebView(schemes[index]['url']!),
                     ),
                   );
                 },
@@ -85,7 +88,10 @@ class SchemeWebView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Scheme Details')),
+      appBar: AppBar(
+        title: const Text('Scheme Details'),
+        backgroundColor: Colors.blue,
+      ),
       body: WebView(
         initialUrl: url,
         javascriptMode: JavascriptMode.unrestricted,

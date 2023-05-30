@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_login/widget/plantation_method.dart';
 
 import 'screens/auth/otp.dart';
 import 'screens/auth/register.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         'otp': (context) => const MyOtp(),
         'home': (context) => const Home(),
         'weather': (context) => const MyWeather(),
+        'plantation' :(context) => const PlantationMethod(),
         'calculator': (context) => const MyCalculator(),
         'news': (context) => const MyNews(),
         'fruits': (context) => const MyFruits(),
