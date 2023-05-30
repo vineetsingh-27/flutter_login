@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login/screens/community/community.dart';
 import 'package:flutter_login/widget/banner_widget.dart';
 
 import '../../widget/calculator.dart';
@@ -9,6 +10,7 @@ import '../../widget/drawer_widget.dart';
 import '../../widget/home_screen_weather.dart';
 import '../../widget/news_widget.dart';
 import '../../widget/yojna_widget.dart';
+import '../rent/rent.dart';
 import '../weather/weather.dart';
 
 class Home extends StatefulWidget {
@@ -19,12 +21,22 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  final List<Widget> _children = [
+    const Home(),
+    const Rent(),
+    const MyCommunityPost(),
+  ];
+
   int _selectedIndex = 0;
 
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
     });
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => _children[index]),
+    );
   }
 
   @override
@@ -35,33 +47,27 @@ class _HomeState extends State<Home> {
         title: const Text("AgriGo"),
       ),
 
-      /** Drawer */
+      /** Drawer widget **/
       drawer: const DrawerWidget(),
-      
-      bottomNavigationBar: Theme(
-        data: Theme.of(context).copyWith(
-          canvasColor: Colors.green,
-        ),
-        child: BottomNavigationBar(
-          items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.car_rental), label: 'Rent'),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.comment_bank), label: 'Community'),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.person_2_rounded), label: 'Person'),
-          ],
-          currentIndex: _selectedIndex,
-          onTap: _onItemTapped,
-        ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.green,
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white70,
+        type: BottomNavigationBarType.fixed,
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.car_rental), label: 'Rent'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.comment_bank), label: 'Community'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.person_2_rounded), label: 'Person'),
+        ],
+        currentIndex: _selectedIndex,
+        onTap: _onItemTapped,
       ),
-
-      /** Home Screen **/
       body: SingleChildScrollView(
         child: Column(
           children: [
-
             /** Weather forecast **/
             InkWell(
               onTap: () {
@@ -77,7 +83,6 @@ class _HomeState extends State<Home> {
                 child: HomeScreenWeather(),
               ),
             ),
-
             Padding(
               padding: const EdgeInsets.fromLTRB(6.0, 4.0, 8.0, 4.0),
               child: Container(
@@ -114,14 +119,13 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-
             const CategoriesWidget(),
             /** Articles **/
 
             /** Banner Section **/
             const Padding(
-              padding: EdgeInsets.only(
-                  left: 8.0, right: 8.0, top: 8.0, bottom: 8.0),
+              padding:
+                  EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0, bottom: 8.0),
               child: BannerWidget(),
             ),
 
@@ -145,15 +149,12 @@ class _HomeState extends State<Home> {
               ),
             ),
             const CropsWidget(),
-
             const SizedBox(
               height: 15,
             ),
 
-
             /** Yojna Section **/
             const YojnaWidget(),
-
             const SizedBox(
               height: 10,
             ),
