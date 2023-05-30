@@ -42,7 +42,6 @@ class MyApp extends StatelessWidget {
         'fruits': (context) => const MyFruits(),
         'vegetable' : (context) => const MyVegetable(),
         'yojna_list': (context) => const MyYojnaList(),
-        // 'yojna_details': (context) => const MyYojnaDetails(),
         'rent' : (context) => const Rent(),
         'community_post' : (context) => const MyCommunityPost(),
       },

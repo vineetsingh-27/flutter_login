@@ -4,14 +4,12 @@ import 'package:flutter_login/widget/banner_widget.dart';
 import '../../widget/calculator.dart';
 import '../../widget/categories.dart';
 import '../../widget/comment.dart';
+import '../../widget/crops/crops_widget.dart';
 import '../../widget/drawer_widget.dart';
 import '../../widget/home_screen_weather.dart';
-import '../crops/fruits_list.dart';
-import '../crops/vegetable_list.dart';
-import '../news/news.dart';
+import '../../widget/news_widget.dart';
+import '../../widget/yojna_widget.dart';
 import '../weather/weather.dart';
-import '../yojna/yojna_list.dart';
-
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -34,7 +32,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: const Text("FarmEase"),
+        title: const Text("AgriGo"),
       ),
 
       /** Drawer */
@@ -63,6 +61,7 @@ class _HomeState extends State<Home> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+
             /** Weather forecast **/
             InkWell(
               onTap: () {
@@ -115,6 +114,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
+
             const CategoriesWidget(),
             /** Articles **/
 
@@ -129,46 +129,7 @@ class _HomeState extends State<Home> {
             const CalculatorWidget(),
 
             /** Daily News **/
-            InkWell(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const MyNews(),
-                  ),
-                );
-              },
-              child: Card(
-                shadowColor: Colors.grey,
-                elevation: 3.0,
-                child: Container(
-                  alignment: Alignment.center,
-                  width: double.infinity,
-                  height: 150,
-                  margin: const EdgeInsets.only(top: 5),
-                  decoration: const BoxDecoration(
-                    color: Colors.white30,
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
-                      Text(
-                        "Daily News",
-                        style: TextStyle(
-                          fontSize: 28,
-                          color: Colors.black,
-                        ),
-                      ),
-                      Icon(
-                        Icons.newspaper,
-                        size: 30,
-                        color: Colors.green,
-                      )
-                    ],
-                  ),
-                ),
-              ),
-            ),
+            const NewsWidget(),
 
             /** Info of crops **/
             const Align(
@@ -183,139 +144,16 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(left: 8, right: 8),
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const MyFruits(),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      width: 150,
-                      height: 150,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        boxShadow: const [
-                          BoxShadow(
-                            blurRadius: 5,
-                            offset: Offset(
-                              1,
-                              1,
-                            ),
-                          ),
-                        ],
-                        borderRadius: BorderRadius.circular(4),
-                        border: Border.all(
-                          width: 0.5,
-                        ),
-                        image: const DecorationImage(
-                            image: ExactAssetImage("assets/images/fruits.png"),
-                            alignment: Alignment.topCenter),
-                      ),
-                      child: const Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Text(
-                          "Fruits",
-                          style: TextStyle(
-                            fontSize: 28,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                const SizedBox(
-                  width: 10,
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 8, right: 8),
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const MyVegetable(),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      width: 150,
-                      height: 150,
-                      decoration: BoxDecoration(
-                        boxShadow: const [
-                          BoxShadow(
-                            blurRadius: 5,
-                            offset: Offset(
-                              1,
-                              1,
-                            ),
-                          ),
-                        ],
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(4),
-                        border: Border.all(
-                          width: 0.5,
-                        ),
-                        image: const DecorationImage(
-                            image: ExactAssetImage("assets/images/plant3.png"),
-                            alignment: Alignment.topCenter),
-                      ),
-                      child: const Align(
-                        alignment: Alignment.bottomCenter,
-                        child: Text(
-                          "Vegetable",
-                          style: TextStyle(
-                            fontSize: 28,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
+            const CropsWidget(),
+
             const SizedBox(
               height: 15,
             ),
 
 
-            InkWell(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const MyYojnaList(),
-                  ),
-                );
-              },
-              child: Card(
-                shadowColor: Colors.grey,
-                elevation: 3.0,
-                child: Container(
-                  alignment: Alignment.center,
-                  width: double.infinity,
-                  height: 150,
-                  margin: const EdgeInsets.only(top: 5),
-                  decoration: const BoxDecoration(
-                    color: Colors.white30,
-                  ),
-                  child: const Text(
-                    "Krishi Scheme",
-                    style: TextStyle(
-                      fontSize: 28,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-              ),
-            ),
+            /** Yojna Section **/
+            const YojnaWidget(),
+
             const SizedBox(
               height: 10,
             ),
@@ -325,4 +163,3 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
