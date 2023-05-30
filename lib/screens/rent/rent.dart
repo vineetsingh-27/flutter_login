@@ -10,6 +10,11 @@ class Rent extends StatefulWidget {
 class _RentState extends State<Rent> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Rent"),
+      ),
+      body: const Center(child: Text("Rent page")),
+    );
   }
 }
